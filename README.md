@@ -108,29 +108,3 @@ This ensures efficient operations for large lists, maintaining balanced performa
 
 - This implementation requires a `printree` function to visualize the tree structure (not included here).
 
-## Example
-
-Here's an example of how to use the AVL Tree List:
-
-```python
-# Create an AVL Tree List
-avl_list = AVLTreeList()
-
-# Insert values
-avl_list.insert(0, "A")
-avl_list.insert(1, "B")
-avl_list.insert(2, "C")
-
-# Retrieve values
-print(avl_list.retrieve(0))  # Output: "A"
-print(avl_list.retrieve(1))  # Output: "B"
-print(avl_list.retrieve(2))  # Output: "C"
-
-# Delete a value
-avl_list.delete(1)
-
-# Convert to array
-print(avl_list.listToArray())  # Output: ["A", "C"]
-```
-
-This project demonstrates the power of AVL Trees in maintaining balanced lists with efficient operations.
