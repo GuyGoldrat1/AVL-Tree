@@ -104,7 +104,4 @@ avl_list.concat(another_avl_list)  # Concatenate another AVL Tree List
 
 This ensures efficient operations for large lists, maintaining balanced performance across different operations.
 
-## Dependencies
-
-- This implementation requires a `printree` function to visualize the tree structure (not included here).
 
